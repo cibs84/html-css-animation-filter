@@ -18,8 +18,6 @@
 }
 .ex-2-square:active {
     width: 100%;
-    height: 100px;
-    background: red;
 }
 
 /* Esercizio 3 */
@@ -30,9 +28,6 @@
     transition: border-radius 0.5s;
 }
 .ex-3-square:hover {
-    width: 100px;
-    height: 100px;
-    background: red;
     border-radius: 50%;
 }
 
