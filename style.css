@@ -135,6 +135,7 @@
     } 
 }
 
+/* ESERCIZI 12 - 13 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -163,4 +164,34 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: top-12 2s linear;
+}
+@keyframes top-12 {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    0% {
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottom-12 2s linear;
+}
+@keyframes bottom-12 {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    0% {
+        right: 20%;
+    }
 }
