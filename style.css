@@ -77,8 +77,7 @@
     transition: all 2s;
 }
 .ex-7-img:hover {
-    filter: grayscale(1);
-    filter: sepia(0.5);
+    filter: grayscale(0.5) sepia(0.5);
 }
 
 /* Esercizio 8 */
